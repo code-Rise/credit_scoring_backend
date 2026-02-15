@@ -100,8 +100,6 @@ Risk Levels:
     └── credit_model.pkl
 ```
 
----
-
 ## Workflow
 
 1. Train the model  

@@ -5,8 +5,7 @@ CREATE TABLE Region (
 
 CREATE TABLE Borrowers (
     borrower_id NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    first_name VARCHAR2(100) NOT NULL,
-    last_name VARCHAR2(100) NOT NULL,
+    full_name VARCHAR2(100) NOT NULL,
     email VARCHAR2(150) UNIQUE,
     phone VARCHAR2(20),
     loan_amount NUMBER(10,2),
@@ -31,4 +30,5 @@ FROM Region r
 LEFT JOIN Borrowers b
     ON r.region_id = b.region_id
 GROUP BY r.region_id, r.region_name;
+
 

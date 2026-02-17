@@ -179,3 +179,7 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+# adding docs/api_documentation.md for now as I'm still working on them
+docs/api_documentation.md

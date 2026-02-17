@@ -41,7 +41,7 @@ data/UCI_Credit_Card.csv
 Run the training script:
 
 ```bash
-python train_credit_model.py
+python  train.py
 ```
 
 This will:
